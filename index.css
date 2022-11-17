@@ -1,0 +1,259 @@
+a{ text-decoration: none;}
+.heading {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    margin-left: 0%;
+    padding-left:90px ;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    font-size: 30px;
+    background-color: rgb(227, 223, 216);
+}
+.boxx{ background-color: white;}
+.content{    background-color: white;}
+.fa-circle-plus {    background-color: rgb(240, 240, 248); color: rgb(4, 149, 211);
+    font-size: 28px;
+}
+.addbtn{
+    padding: 2% 0%;
+    text-align: right;
+    width: 88%;
+    font-size: 25px;
+}
+.boxview{
+    width: 280px;
+    height: 250px;
+    margin: 67px;
+    /*padding: 10px; */
+    background-color:white;
+    text-decoration: none;
+}
+.boxview:hover{ 
+    
+    box-shadow: 10px 10px 10px rgb(190, 190, 190); 
+}
+.content{
+    background-color: white;
+    gap: 5px;
+
+     display:grid; 
+     grid-template-columns: auto auto auto;
+      justify-content: left;
+    margin: 0 0 0px 6%;
+    width:1200px;
+   
+}
+.flwin{
+    border: 2px solid black;
+    position: fixed;
+    top: 25%;
+    left: 33%;
+    right: 33%;
+    width: 25%;
+    height: 22%;
+    padding: 1%;
+    z-index: 3;
+    background-color: white;
+    border-radius: 5px;
+    backdrop-filter:blur(10px);
+    /* filter: blur(1px); */
+   
+}
+.btngrp {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bbtn {
+    padding: 2% 0%;
+    text-align: left;
+    font-size: 25px;
+    width: 15%;
+    text-decoration: none;
+}
+
+.abtn {
+    padding: 2% 0%;
+    float: right;
+    font-size: 25px;
+    width: 15%;
+    text-decoration: none;
+}
+#popbody{ background-color: grey; filter: blur(40%);}
+#blurr{ background-color: grey;}
+.button1{
+     background-color: red;
+     border-radius: 4px;
+     border: none;
+}
+
+
+
+
+.fa-circle-plus {
+    background-color: rgb(240, 240, 248);
+    color: rgb(4, 149, 211);
+    font-size: 28px;
+}
+
+.addnewbtn {
+    padding: 2% 0%;
+    text-align: right;
+    width: 88%;
+    font-size: 25px;
+}
+
+.addnewbtn a{
+    text-decoration: none;
+}
+
+.gridview {
+    width: 280px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.gridview:hover {
+    background-color: rgb(244, 242, 242);
+}
+
+.maingrid {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0 0 0px 6%;
+    width: 290px;
+}
+
+.gridview h3 {  color: rgb(4, 149, 211);}
+
+.gridview a {
+    text-decoration: none;
+}
+
+.maingridindex1 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 0px 6%;
+    width: 89%;
+}
+
+.btngroup {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.backbtn {
+    padding: 2% 0%;
+    text-align: left;
+    font-size: 25px;
+    width: 15%;
+    text-decoration: none;
+}
+
+.addbtn {
+    padding: 2% 0%;
+    float: right;
+    font-size: 25px;
+    width: 15%;
+    text-decoration: none;
+}
+.addbtn a {
+    text-decoration: none;
+}
+
+.backbtn a {
+    text-decoration: none;
+}
+
+.popupwindow {
+    position: fixed;
+    top: 25%;
+    left: 33%;
+    right: 33%;
+    width: 25%;
+    height: 22%;
+    padding: 1%;
+    z-index: 3;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.popupbody {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.popupwindow button {
+    width: 125px;
+    height: 35px;
+    background-color: #4a57f3;
+    color: white;
+    border-color: #4a57f3;
+    float: right;
+}
+
+.popupwindow input {
+    height: 25px;
+    width: 100%;
+    background-color: #e7e3e3;
+    border: 1px solid #cdc5c5;
+    border-radius: 5px;
+}
+
+.fa-xmark {
+    float: right;
+}
+.addnew{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+.popupbody{ filter: brightness(50%);}
+
+
+@media ( max-width:400px) {
+.content{ display:run-in;
+    align-content: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;}
+.boxview{ 
+    width: 280px;
+    height: 250px;
+    /* margin: 10px;
+    padding: 10px; */
+    
+}
+.flwin{ display: inline-block;
+filter: brightness(100%) blur(5%)
+;}
+.flwin{z-index: inherit;}
+}
+
+#blurr{
+    filter: brightness(40%); 
+    filter:blur(40%);
+}
+   .fl1{ width:200px; height: 200px;
+align-items: center;}
+     input[type=checkbox] {
+      accent-color: red;
+    }
